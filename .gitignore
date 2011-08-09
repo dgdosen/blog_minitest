@@ -1,0 +1,5 @@
+.DS_Store
+/tmp/*
+.gitkeep
+*.log
+*.sqlite3
