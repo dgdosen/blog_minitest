@@ -65,6 +65,11 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.16)
     minitest (2.3.1)
+    minitest-rails (0.0.5)
+      actionpack (~> 3.1.0.rc1)
+      activesupport (~> 3.1.0.rc1)
+      minitest (~> 2.2)
+      railties (~> 3.1.0.rc1)
     multi_json (1.0.3)
     nifty-generators (0.4.6)
     pg (0.11.0)
@@ -129,6 +134,7 @@ DEPENDENCIES
   guard-minitest
   jquery-rails
   minitest
+  minitest-rails
   nifty-generators
   pg
   rails (= 3.1.0.rc5)

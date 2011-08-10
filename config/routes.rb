@@ -1,4 +1,6 @@
 BlogMinitest::Application.routes.draw do
+  resources :foos
+
   resources :thingies
 
   resources :articles
