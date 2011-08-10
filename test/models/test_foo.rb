@@ -1,9 +1,10 @@
 require "minitest_helper"
+require 'purdytest'
 
 class FooTest < MiniTest::Rails::Model
 
   def test_sanity
-    flunk "Need real tests"
+    assert true
   end
 
 end

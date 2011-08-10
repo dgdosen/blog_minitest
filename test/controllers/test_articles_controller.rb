@@ -1,7 +1,11 @@
-require 'test_helper'
+require 'minitest_helper'
+require 'purdytest'
+require 'minitest/autorun'
+
 
 class ArticlesControllerTest < ActionController::TestCase
   setup do
+    # test
     @article = articles(:one)
   end
 

@@ -1,5 +1,6 @@
 gem 'minitest'
 require 'minitest/autorun'
+require 'purdytest'
 
 class ArticleTest < MiniTest::Unit::TestCase
   def test_article
@@ -11,6 +12,6 @@ class ArticleTest < MiniTest::Unit::TestCase
   end
 
   def test_this
-    # assert true
+    assert true
   end
 end
